@@ -1,0 +1,24 @@
+{
+	"name": "h4kuna/latte-php-tokenizer",
+	"type": "utility",
+	"description": "Transform macro args to array.",
+	"homepage": "https://github.com/h4kuna/latte-php-tokenizer",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Milan Matějček",
+			"email": "milan.matejcek@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"latte/latte":  "^2.0"
+	},
+	"require-dev": {
+		"nette/tester": "~1.0",
+		"tracy/tracy": "^2.3"
+	},
+	"autoload": {
+		"files": ["src/LattePhpTokenizer.php"]
+	}
+}
